@@ -10,7 +10,6 @@ const Greeting = () => {
     useEffect(() => {
         dispatch(getGreeting());
     }, [dispatch])
-    console.log(greet)
     
     return ( 
         <div>
